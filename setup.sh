@@ -8,9 +8,6 @@ touch  ~/.oh-my-zsh/custom/themes/custom.zsh-theme;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo chsh -s $(which zsh)
 
-# Pull dotFiles
-git clone https://github.com/pikiaboy/dotfiles.git dotFiles;
-
 # clean up previous dotfiles and hardlink to git
 rm ~/.zshrc;
 rm ~/.profile;
