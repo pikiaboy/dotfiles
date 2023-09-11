@@ -1,0 +1,9 @@
+[user]
+	email = thomas.pham96@yahoo.com
+	name = Thomas Pham
+[alias]
+	st = status
+	co = checkout
+	br = branch
+[core]
+	editor = nano
