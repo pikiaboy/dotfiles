@@ -12,8 +12,6 @@ sudo chsh -s $(which zsh)
 rm ~/.zshrc;
 rm ~/.profile;
 
-cd dotFiles;
-
 ln .zshrc ~/.zshrc;
 ln .profile ~/.profile;
 ln ./oh-my-zsh/themes/custom.zsh-theme ~/.oh-my-zsh/custom/themes/custom.zsh-theme;
